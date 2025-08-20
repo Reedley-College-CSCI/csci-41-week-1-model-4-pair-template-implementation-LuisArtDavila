@@ -16,4 +16,10 @@ public:
     void setSecond(T s);
 };
 
+template <typename T>
+Pair<T>::Pair(T f, T s) {
+    first = f;
+    second = s;
+}
+
 #endif
